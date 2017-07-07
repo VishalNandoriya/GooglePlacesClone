@@ -1,0 +1,25 @@
+PODS:
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+
+SPEC CHECKSUMS:
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+
+PODFILE CHECKSUM: 4440f2dd4995aaa7d2540931d6a977da6dd40512
+
+COCOAPODS: 1.2.0
